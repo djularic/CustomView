@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomView">
+        <attr name="color_background" format="color"/>
+        <attr name="rectangle_color" format="color"/>
+        <attr name="rectangle_color_transition" format="color"/>
+        <attr name="rectangle_color_background" format="color"/>
+        <attr name="rectangle_size_width" format="dimension"/>
+        <attr name="rectangle_top_position" format="dimension"/>
+        <attr name="rectangle_left_position" format="dimension"/>
+    </declare-styleable>
+</resources>

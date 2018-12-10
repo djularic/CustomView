@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff111"
+        tools:context=".MainActivity">
+
+    <com.example.dominikjularic.customview.CustomView
+            android:id="@+id/cvMyView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:rectangle_size_width="700dp"
+            app:rectangle_color="@color/colorAccent"
+            app:rectangle_color_transition="#333fff"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+
+    </com.example.dominikjularic.customview.CustomView>>
+
+</android.support.constraint.ConstraintLayout>
